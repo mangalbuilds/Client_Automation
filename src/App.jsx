@@ -87,6 +87,9 @@ export default function App() {
             <span>Automated Real-Time Lead Dispatch Workflows</span>
           </div>
         </div>
+        <div className="mt-4 pt-4 border-t border-[#EBE3D5]/60 text-[10px] text-[#94A3B8] text-center font-mono-telemetry max-w-4xl mx-auto leading-relaxed">
+          Legal Notice: Meta, WhatsApp, Telegram, Google, and related brand marks are the registered trademarks of their respective owners. TrackKaro AI is an independent speed-to-lead automation infrastructure and is not affiliated, sponsored, or certified by Meta Platforms or Google LLC.
+        </div>
       </footer>
 
       {/* Mobile Sticky Navigation Dock */}
