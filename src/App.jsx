@@ -21,14 +21,14 @@ export default function App() {
 
           <div className="flex items-center gap-3">
             <a
-              href="https://jarvis.trackkaroai.com/"
+              href="https://usevance.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#92400E] hover:text-[#78350F] font-bold flex items-center gap-1.5 transition-all px-3 py-1 rounded-full bg-amber-100/80 hover:bg-amber-200 border border-amber-300 text-[11px] shadow-xs"
-              title="Launch TrackKaro Jarvis Autonomous AI Outbound SDR"
+              title="Launch Vance Autonomous AI Outbound SDR"
             >
               <Zap className="w-3 h-3 text-amber-600 fill-current" />
-              <span>Jarvis AI SDR ↗</span>
+              <span>Vance AI SDR ↗</span>
             </a>
             <a
               href="https://www.linkedin.com/in/mangal-soren-1312ba31a/"

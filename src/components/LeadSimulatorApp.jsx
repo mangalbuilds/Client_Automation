@@ -493,9 +493,9 @@ export default function LeadSimulatorApp() {
         </div>
       </header>
 
-      {/* Weekday-Inspired Lively Jarvis Outbound Banner */}
+      {/* Weekday-Inspired Lively Vance Outbound Banner */}
       <a
-        href="https://jarvis.trackkaroai.com/"
+        href="https://usevance.com/"
         target="_blank"
         rel="noopener noreferrer"
         className={`group p-4 sm:p-5 rounded-2xl border-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 transition-all duration-300 shadow-sm relative overflow-hidden ${
@@ -503,11 +503,11 @@ export default function LeadSimulatorApp() {
             ? 'bg-gradient-to-r from-[#FFFDF7] via-[#FFFBEB] to-[#FEF3C7]/60 border-[#FDE68A] hover:border-[#F59E0B] hover:shadow-md'
             : 'bg-[#111827] border-[#1F2937] hover:border-[#38BDF8]'
         }`}
-        title="Explore TrackKaro Jarvis Autonomous AI Outbound SDR"
+        title="Explore Vance Autonomous AI Outbound SDR"
       >
         <div className="flex items-start sm:items-center gap-3.5">
           <div className="w-12 h-12 rounded-2xl bg-amber-100 border border-amber-300 flex items-center justify-center text-2xl shadow-xs shrink-0 group-hover:scale-110 transition-transform">
-            🤖
+            ⚡
           </div>
           <div className="text-left">
             <div className="flex items-center gap-2">
@@ -518,18 +518,18 @@ export default function LeadSimulatorApp() {
               <span className="text-[11px] text-[#92400E] font-bold hidden md:inline">Sister Engine</span>
             </div>
             <h3 className="text-base sm:text-lg font-serif-editorial font-bold text-[#18191B] mt-1 group-hover:text-[#D97706] transition-colors flex items-center gap-1.5">
-              <span>Need to hunt high-ticket clients too? Meet Jarvis</span>
+              <span>Need to hunt high-ticket clients too? Meet Vance</span>
               <span className="text-[#D97706] text-sm">↗</span>
             </h3>
             <p className="text-xs text-[#525866] mt-0.5 max-w-xl leading-relaxed">
-              While TrackKaro connects incoming leads in real-time, Jarvis autonomously finds verified decision-makers &amp; books qualified calls on autopilot.
+              While TrackKaro connects incoming leads in real-time, Vance autonomously finds verified decision-makers &amp; books qualified calls on autopilot.
             </p>
           </div>
         </div>
 
         <div className="flex items-center gap-2 shrink-0 self-end sm:self-center">
           <span className="px-5 py-2.5 rounded-full bg-[#18191B] hover:bg-black text-white font-mono-telemetry text-xs font-bold transition-all shadow-md group-hover:scale-105 flex items-center gap-2 cursor-pointer">
-            <span>Launch Jarvis OS</span>
+            <span>Launch Vance OS</span>
             <span>🚀</span>
           </span>
         </div>
