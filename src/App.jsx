@@ -1,7 +1,7 @@
 import React from 'react';
 import LeadSimulatorApp from './components/LeadSimulatorApp';
 import LinkedInIcon from './components/LinkedInIcon';
-import { Zap, Play, Layers, MessageSquare } from 'lucide-react';
+import { Zap, Play, Layers, MessageSquare, Instagram } from 'lucide-react';
 
 export default function App() {
   return (
@@ -57,7 +57,7 @@ export default function App() {
       {/* Footer */}
       <footer className="mt-12 border-t border-[#EBE3D5] py-8 text-center text-xs text-[#64748B] max-w-7xl mx-auto px-6 bg-[#FAF8F5]">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 font-mono-telemetry">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2.5 flex-wrap">
             <span className="w-2.5 h-2.5 rounded-full bg-[#10B981]"></span>
             <a
               href="https://www.linkedin.com/in/mangal-soren-1312ba31a/"
@@ -67,6 +67,17 @@ export default function App() {
             >
               <LinkedInIcon className="w-3.5 h-3.5 fill-[#0A66C2]" />
               <span>MANGAL SOREN</span>
+            </a>
+            <span>•</span>
+            <a
+              href="https://www.instagram.com/usevance.ai?utm_source=qr&exln=MXBjcDk5M2dsamNpZQ%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-[#18191B] hover:text-[#E1306C] flex items-center gap-1.5 transition-colors"
+              title="Follow @usevance.ai on Instagram"
+            >
+              <Instagram className="w-3.5 h-3.5 text-[#E1306C]" />
+              <span>@usevance.ai</span>
             </a>
             <span>• TrackKaro AI</span>
           </div>
