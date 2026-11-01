@@ -1,7 +1,8 @@
 import React from 'react';
 import LeadSimulatorApp from './components/LeadSimulatorApp';
 import LinkedInIcon from './components/LinkedInIcon';
-import { Zap, Play, Layers, MessageSquare, Instagram } from 'lucide-react';
+import InstagramIcon from './components/InstagramIcon';
+import { Zap, Play, Layers, MessageSquare } from 'lucide-react';
 
 export default function App() {
   return (
@@ -76,7 +77,7 @@ export default function App() {
               className="font-bold text-[#18191B] hover:text-[#E1306C] flex items-center gap-1.5 transition-colors"
               title="Follow @usevance.ai on Instagram"
             >
-              <Instagram className="w-3.5 h-3.5 text-[#E1306C]" />
+              <InstagramIcon className="w-3.5 h-3.5 text-[#E1306C]" />
               <span>@usevance.ai</span>
             </a>
             <span>• TrackKaro AI</span>
